@@ -10,6 +10,6 @@
 	></script>
 </head>
 
-<main class="bg-black h-screen text-slate-300">
+<main class="bg-black h-screen text-slate-300 min-w-screen flex flex-col">
 	<slot />
 </main>
