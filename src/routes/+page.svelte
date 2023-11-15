@@ -95,7 +95,15 @@
 </nav>
 
 <article class="w-1/3 mx-auto px-1">
-	<h1 class="text-xl text-center"><span class="text-violet-500">quote</span> of the day</h1>
+	<h1 class="text-xl text-center">
+		<button
+			class="text-violet-500"
+			on:click={() => {
+				qotd = quotes[Math.floor(Math.random() * quotes.length)];
+			}}>quote</button
+		>
+		of the day
+	</h1>
 	<h2 class="text-lg">
 		{qotd}
 	</h2>
