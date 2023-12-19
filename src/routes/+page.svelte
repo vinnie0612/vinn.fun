@@ -27,7 +27,8 @@
 		'try docker compose building a relationship',
 		'powered by marlboro gold 100s',
 		'a small amount of delusion is normal',
-		'undefined (xd)'
+		'undefined (but is it really?)',
+		'birds dont sing'
 	];
 
 	let qotd: string = '';
@@ -94,7 +95,7 @@
 	<hr />
 </nav>
 
-<article class="w-1/3 mx-auto px-1">
+<article class="w-full px-1">
 	<h1 class="text-xl text-center">
 		<button
 			class="text-violet-500"
@@ -104,7 +105,7 @@
 		>
 		of the day
 	</h1>
-	<h2 class="text-lg">
+	<h2 class="text-lg text-center">
 		{qotd}
 	</h2>
 </article>
